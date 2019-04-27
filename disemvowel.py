@@ -6,3 +6,9 @@ def disemvowel(string):
             arr.remove(i)
 
     return ''.join(arr)
+
+
+def disemvowel(s):
+    vowel = "a e i o u",strip().split(" ")
+    list = list(string.lower())
+    return ''.join([list.remove(i) for i in list if i in vowel])
