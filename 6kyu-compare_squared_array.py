@@ -28,7 +28,6 @@ def comp(array1, array2):
     a,b = array1, array2
     if a is None or b is None: return 0 # Validation Returns False
 
-
     square_list = [ number ** 2 for number in a  ]
     
     for i in b:
@@ -37,4 +36,20 @@ def comp(array1, array2):
         else:
             return 0
     return 1
-	
+
+
+"""
+Reference
+https://www.w3schools.com/python/ref_func_all.asp
+
+to check if both arrays are true
+
+"""
+
+def comp(array1, array2):
+    try:
+        return sorted([i ** 2 for i in array1]) == sorted(array2)
+    except:
+        return False
+
+
