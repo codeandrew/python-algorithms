@@ -1,6 +1,32 @@
 # Python Algorithms
 > for practicing python
 
+## Strings
+
+### Unicodes
+using `ord()` returns an integer representing the Unicode character
+```
+character = 'P'
+
+# find unicode of P
+unicode_char = ord(character)
+print(unicode_char)
+
+# Output: 80
+```
+
+
+The `chr()` method converts an integer to its unicode character and returns it.
+```
+print(chr(97))
+# Output: a
+
+print(chr(98))
+#  Output: b
+```
+
+
+
 ## Array Slicing 
 
 ```
