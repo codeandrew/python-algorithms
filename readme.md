@@ -160,3 +160,42 @@ string = "Hello 12345 World "
 numbers = [x for x in string if x.isdigit()]
 print(numbers) # Output  ['1', '2', '3', '4', '5']
 ```
+
+
+## MATH Operators
+
+### Division 
+
+
+/ → Floating point division
+
+// → Floor division
+
+
+Let’s see some examples in both Python 2.7 and in Python 3.5.
+
+Python 2.7.10 vs. Python 3.5
+```
+print (2/3)  ----> 0                   Python 2.7
+print (2/3)  ----> 0.6666666666666666  Python 3.5
+```
+Python 2.7.10 vs. Python 3.5
+```
+print (4/2)  ----> 2         Python 2.7
+print (4/2)  ----> 2.0       Python 3.5
+```
+Now if you want to have (in Python 2.7) the same output as in Python 3.5, you can do the following:
+
+Python 2.7.10
+```
+from __future__ import division
+print (2/3)  ----> 0.6666666666666666   # Python 2.7
+print (4/2)  ----> 2.0                  # Python 2.7
+```
+Whereas there isn't any difference between floor division in both Python 2.7 and in Python 3.5.
+```
+138.93//3 ---> 46.0        # Python 2.7
+138.93//3 ---> 46.0        # Python 3.5
+4//3      ---> 1           # Python 2.7
+4//3      ---> 1           # Python 3.5
+```
