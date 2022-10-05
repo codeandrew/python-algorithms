@@ -154,6 +154,22 @@ small_list_a = [str.lower() for str in list_a]
 print(small_list_a) # Output: ['hello', 'world', 'in', 'python']
 ```
 
+List comprehension with IF only
+```
+a = ["a","A","b", "B"]
+b = [i for i in a if i.islower() ]
+print(b)
+# [ "a", "b"] 
+```
+
+List comprehension with IF ELSE 
+```
+a = ["a","A","b", "B"]
+b = [i if i.islower() else 0 for i in a  ]
+print(b)
+# [ "a", 0, "b", 0] 
+```
+
 Extract number from strings
 ```python
 string = "Hello 12345 World "
