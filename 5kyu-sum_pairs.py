@@ -59,4 +59,10 @@ def sum_pairs(ints, s):
         if item not in seen: seen+=[item]
     return None
 
+"""
+tags:
+
+check next element in list,
+appending elements of list for checking
+"""
 
