@@ -21,3 +21,7 @@ All arrays or lists will always have at least one element, so you don't need to 
 # MY SOLUTION
 def min_max(lst):
     return [min(lst), max(lst)]
+
+
+# LAMBDA
+min_max = lambda l: [min(l), max(l)]
