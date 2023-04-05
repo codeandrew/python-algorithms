@@ -1,6 +1,17 @@
 # Python Algorithms
 > for practicing python
 
+## Coding Philosophies
+You aren’t meant to master a Programming Language in the beginning.
+You’re meant to go build them 
+
+You don’t master a programming concept, 
+you apply them in numerous project.
+then you continuously improve on them
+
+### SOLID
+
+
 ## Strings
 
 ### Unicodes
