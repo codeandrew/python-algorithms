@@ -7,4 +7,14 @@ Write a function that when given a URL as a string, parses out just the domain n
 """
 
 def domain_name(url):
+    if "://" in url:
+        url = url.split("://")[1]
+
+    if "www." in url:
+        url = url.split("www.")[1]
+
+    return url.split(".")[0]
+
+# sleek
+def domain_name(url):
     return url.split("//")[-1].split("www.")[-1].split(".")[0]
